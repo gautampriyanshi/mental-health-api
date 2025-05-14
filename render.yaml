@@ -7,4 +7,6 @@ services:
     envVars:
       - key: DJANGO_SETTINGS_MODULE
         value: mental_health_api.settings
+build:
+  pythonVersion: 3.10
 
